@@ -1,0 +1,6 @@
+<aura:component implements="force:appHostable">
+<h1>My First</h1>
+
+
+
+</aura:component>

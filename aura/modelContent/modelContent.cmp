@@ -1,0 +1,10 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+	<force:recordData 	aura:id="recordLoader"
+				    recordId="{!v.recordId}"
+				    fields="Name"
+				    targetFields="{!v.accountRecord}"
+				    targetError="{!v.recordLoadError}"
+				    />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    Account {!v.recordId} has been created!
+</aura:component>
