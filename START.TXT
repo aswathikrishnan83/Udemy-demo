@@ -1,2 +1,4 @@
 test GIT
 edited this file remotely
+
+ash-edited this file from local.
